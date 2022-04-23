@@ -25,7 +25,8 @@ export default function ProductInfoCard() {
       maxW={'320px'}
       w={'full'}
       bg={useColorModeValue('white', 'gray.900')}
-      boxShadow={'2xl'}
+      boxShadow={'sm'}
+      border="1px solid #EAECEE"
       rounded={'lg'}
       p={6}
     >

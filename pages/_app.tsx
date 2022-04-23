@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <ChakraProvider theme={theme}>
-      <Box minH="100vh" bg={useColorModeValue('gray.100', 'gray.900')}>
+      <Box minH="100vh">
         <SidebarWithNoSSR
           onClose={() => onClose}
           display={{ base: 'none', md: 'block' }}
