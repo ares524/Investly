@@ -17,6 +17,7 @@ import {
   NotificationHeader,
   DashboardInfoCardContainer,
   FavoriteHeader,
+  ProductInfoCardContainer,
 } from './index.module'
 import NotificationIcon from '../components/Icons/NotiifcationIcon'
 import { IconType } from 'react-icons'
@@ -25,6 +26,7 @@ import SearchIcon from '../components/Icons/SearchIcon'
 import TrendingDownIcon from '../components/Icons/TrendingDownIcon'
 import TrendingFlatIcon from '../components/Icons/TrendingFlatIcon'
 import NotificationCard from '../components/NotificationCard'
+import ProductInfoCard from '../components/ProductCard'
 
 interface NotificationCardInfoProps {
   name: string
@@ -104,6 +106,12 @@ const Home: NextPage = () => {
                 </InputGroup>
               </div>
             </FavoriteHeader>
+            <ProductInfoCardContainer>
+              <ProductInfoCard />
+              <ProductInfoCard />
+              <ProductInfoCard />
+              <ProductInfoCard />
+            </ProductInfoCardContainer>
           </Box>
         </FadeInDown>
       </Container>

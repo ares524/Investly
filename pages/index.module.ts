@@ -38,6 +38,7 @@ export const DashboardInfoCardContainer = styled.div`
   justify-content: space-between;
   width: 100%;
 `
+
 export const FavoriteHeader = styled.div`
   display: flex;
   align-items: center;
@@ -53,4 +54,12 @@ export const FavoriteHeader = styled.div`
     line-height: 120%;
     color: #242D35;
   }
+`
+
+export const ProductInfoCardContainer = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
 `
